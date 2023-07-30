@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+  overflow-y: hidden;
+}
+
+.Container1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(32, 103, 30, 0.342);
+  font-weight: 600;
+  color: rgb(17, 71, 93);
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 3px;
+  margin: 3px 3px 5px;
+
+}
+
+.Container2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #0e7b72;
+  border: 1px solid #ccc;
+  border-radius: 6px; 
+  padding: 5px;
+  width: 100%;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.search-input {
+  border: none;
+  background: transparent;
+  padding: 5px;
+  width: 100%;
+  outline: none;
+}
+
+.search-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff; 
+  border-radius: 50%; 
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.search-icon{
+  border-radius: 50%;
+  border: 1px solid gray;
+}
+/*  /
+/  */
+.Container3{
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+
+}
+
+.formDetails{
+  display: flex;
+  justify-content: space-between;
+}
+
+.formDetails input{
+  border-radius: 8px;
+  border: 1px solid gray;
+  padding: 8px;
+  margin-top: 8px;
+}
+
+.formDetails input :first-child{
+  margin-left: 2px;
+}
+
+.formDetails input :last-child{
+  margin-right: 5px;
+}
+
+.button{
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: rgb(153, 152, 152);
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+
+.button:hover{
+  background-color: #ccc;
+}
+/*  /
+/  /
+.table-container{
+  width: 100%;
+  height: 30%;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  / margin: 3px; */
+  
+
+
+table{
+  border-collapse: collapse;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+table,th, td{
+  border: 1px solid #ccc;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.deleteButton{
+  border-radius: 8px;
+  background-color: pink;
+  padding: 3px;
+  margin: 5px;
+}
+
